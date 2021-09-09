@@ -18,11 +18,16 @@
 		}
 	%>
 	
-	<%	//
+	<%	//함수호출
 		out.println("i = " + i + "<br/>");
 		out.println("str = " + str + "<br/>");
 		out.println("sum = " + sum(10,20) + "<br/>");	
 	%>
+	
+	<% // 함수호출 (한개씩만 됨) %>
+	<%= i %>
+	<%= str %>
+	<%= sum(10,20) %>
 
 </body>
 </html>
